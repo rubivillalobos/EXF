@@ -1,0 +1,557 @@
+.navbar {
+    padding: 1rem;
+    background-color: white;
+}
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-size: 1rem;
+    font-family:Georgia, 'Times New Roman', Times, serif, cursive;
+}
+.seccion-titulo {
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family:Georgia, 'Times New Roman', Times, serif, cursive;
+}
+.seccion-texto {
+    font-size: 1.3rem;
+}
+.seccion-descripcion {
+    font-size: 1.3rem;
+}
+.seccion-oscura {
+    color: white;
+    background-color: #00115b;
+}
+.seccion-clara {
+    color: black;
+    background-color: white;
+}
+.texto-negro {
+    color: black;
+}
+
+.texto-blanco {
+    color: white;
+}
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.mainanimation {
+    width: 80%;
+    margin-left: 10%;
+    min-height: 450px;
+    position: absolute;
+}
+.hero {
+    background-color: hwb(0 98% 2%);
+    min-height: 450px;
+    text-align: center;
+}
+.hero-principal {
+    padding: 2rem;
+}
+.hero-imagen-perfil {
+    width: 18%;
+    height: auto;
+}
+.hero-inferior-imagen {
+    max-width: 500;
+}
+.hero-principal h2 {
+    font-size: 1.5rem;
+    color: black;
+}
+.sobre-mi {
+    height: 500px;
+    padding: 10px;
+}
+.sobre-mi .contenedor {
+    max-width: 60%;
+    text-align: center;
+}
+.experiencia {
+    padding: 40px;
+}
+.experiencia-titulo {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.badges-contenedor {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.badge {
+    margin: 5px;
+}
+.experiencia .columna {
+    padding: 20px;
+    border: 1px solid #2b2828ae;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.2s ease-out;
+}
+.experiencia .columna:hover {
+    color: white;
+    background-color: #00115b;
+}
+.columna i {
+    font-size: 2.5rem;
+    color: white;
+    background-color: #00115b;
+    padding: 8px 19px;
+    border-radius: 50%;
+}
+.columna p {
+    margin: 0 auto;
+    text-indent: 1cm;
+    text-align: justify;
+}
+.proyectos-recientes {
+    padding: 40px;
+}
+.proyectos-recientes img {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    transition: all 0.2s ease;
+}
+.proyectos-contenedor {
+    padding-top: 60px;
+    margin-bottom: 40px;
+}
+.overlay {
+    transition: all 0.2s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 0;
+    height: 180px;
+    width: 100%;
+}
+.overlay p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+.proyecto {
+    position: relative;
+}
+.proyecto:hover img {
+    opacity: 0.5;
+}
+.proyecto:hover .overlay {
+    opacity: 5;
+}
+.overlay .iconos-contenedor {
+    display: block;
+}
+.overlay i {
+    color: black;
+    font-size: 50px;
+    margin: 10px;
+}
+.articulos {
+    min-height: 500px;
+    padding: 30px;
+}
+.articulos .card {
+    width: 90%;
+    max-width: 600px;
+    margin: 20px;
+}
+.articulos .card-header {
+    font-weight: bold;
+}
+.testimonios {
+    padding: 40px 40px 80px 40px;
+}
+.testimonios .carousel {
+    max-width: 900px;
+}
+.carousel-item {
+    height: 500px;
+}
+.carousel-item .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.carousel-item .container i {
+    font-size: 150px;
+    margin: 20px 10px 20px 10px;
+}
+.testimonio-texto {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Tahoma, Geneva, Verdana, sans-serif, monospace;
+    max-width: 70%;
+    font-size: 20px;
+    text-align: center;
+}
+.testimonio-imagen {
+    height: 150px;
+    width: 150px;
+    margin: 20px 10px 20px 10px;
+}
+.testimonio-info {
+    font-weight: bold;
+    text-align: center;
+}
+.testimonio-info p {
+    margin-bottom: 0;
+}
+.testimonio-info .cliente {
+    font-size: 2rem;
+}
+.testimonio-info .cargo {
+    font-size: 0.9rem;
+    color: black;
+}
+.contacto .container {
+    max-width: 1100px;
+    min-height: 200px;
+    padding: 20px;
+}
+.contacto .rectangulo {
+    margin-top: -5rem;
+    background-color: rgb(65, 138, 247);
+    border-radius: 15px;
+    box-shadow: 0px 1px 4px 1px rgb(19, 31, 158);
+}
+.contacto .row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.contacto .descripcion {
+    color: white;
+    font-size: 2rem;
+}
+.contacto button {
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    border: 4px solid white;
+    padding: 1.25em 2em;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+}
+.contacto button:hover {
+    background-color: white;
+    color: black;
+}
+.contacto button i {
+    color: white;
+    font-size: 2rem;
+    transition: all 0.4s ease-out;
+}
+.contacto button a {
+    color: white;
+    font-size: 2rem;
+    transition: all 0.2s ease-out;
+}
+.contacto button a:hover {
+    color: black;
+    font-size: 2rem;
+    transition: all 0.4s ease-out;
+}
+.contacto button:hover i {
+    color: black;
+}
+.botonWhatsapp {
+    position: fixed;
+    right: 5%;
+    top: 70%;
+    width: 8%;
+    border-radius: 50%;
+    background-color: transparent;
+    border-color: transparent;
+}
+.botonWhatsapp:hover {
+    width: 10.5%;
+}
+.botonWhatsapp img {
+    width: 100%;
+}
+footer {
+    min-height: 500px;
+}
+.footer-logo {
+    height: 90px;
+    width: 90px;
+    margin: 20px;
+    background-color: white;
+}
+.footer-texto {
+    font-size: 1.5rem;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-family:'Times New Roman', Times, serif, sans-serif;
+}
+.iconos-redes-sociales a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2.5px solid white;
+    border-radius: 50%;
+    transition: all 0.4s ease-out;
+}
+.iconos-redes-sociales i {
+    color: white;
+    font-size: 1.6rem;
+    transition: all 0.2s ease-out;
+}
+.iconos-redes-sociales a:hover {
+    background-color: white;
+    border: 2px solid rgb(65, 138, 247);
+}
+.iconos-redes-sociales a:hover i {
+    color: rgb(31, 95, 233);
+}
+
+.derechos-de-autor {
+    font-size: 15px;
+    color: white;
+    padding: 15px;
+}
+.blogs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100px;
+}
+.txt {
+    position: absolute;
+    top: 184px;
+    width: 150px;
+    left: 50%;
+    margin-left: -75px;
+}
+.txt a:hover {
+    text-decoration: underline;
+}
+@media screen and (max-width: 480px) {
+
+    .navbar {
+        padding: 1rem;
+        background-color: white;
+    }
+
+    .hero {
+        min-height: 350px;
+        text-align: center;
+    }
+    
+    .hero-principal {
+        padding: 1rem;
+    }
+    
+    .hero-imagen-perfil {
+        width: 180px;
+        height: auto;
+    }
+    
+    .hero-principal h2 {
+        font-size: 1rem;
+        color: black;
+    }
+    
+    .hero-inferior-imagen {
+        width: 60%;
+    }
+    .blogs {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: left;
+        height: 110px;
+    }
+    .sobre-mi {
+        height: auto;
+        padding: 2px;
+    }
+    .sobre-mi .contenedor {
+        max-width: 90%;
+        text-align: justify;
+    }
+    .seccion-titulo {
+        font-size: 1.5rem;
+        padding: 15px 0;
+        text-align: center;
+    }
+    .seccion-texto {
+        font-size: 1rem;
+    }
+    .experiencia {
+        padding: 20px;
+    }
+    .experiencia-titulo {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .badges-contenedor {
+        font-size: 20px;
+        font-weight: bold;
+        margin: 10px 0;
+    }
+    .badge {
+        margin: 5px;
+    }
+    .experiencia .columna {
+        padding: 20px;
+    }
+    .experiencia .columna:hover {
+        color: white;
+        background-color: #00115b;
+    }
+    .columna i {
+        font-size: 2rem;
+        padding: 8px 19px;
+    }
+    .columna p {
+        margin: 0 auto;
+        text-indent: 0;
+        text-align: center;
+    }
+    .proyectos-recientes {
+        padding: 10px;
+    }
+    .proyectos-contenedor {
+        padding-top: 10px;
+        margin-bottom: 20px;
+    }
+    .overlay {
+        padding: 0;
+        width: 100%;
+    }
+    .overlay p {
+        font-size: 15px;
+        font-weight: bold;
+        margin-bottom: 0;
+        padding: 0;
+        margin-top: 10px;
+    }
+    .overlay .iconos-contenedor {
+        display: block;
+        align-items: center;
+    }
+    .overlay i {
+        font-size: 50px;
+    }
+    .articulos {
+        min-height: 400px;
+        padding: 0;
+    }
+    .articulos .card {
+        width: 90%;
+        max-width: 600px;
+        margin: 10px;
+    }
+    .articulos .card-header {
+        font-weight: bold;
+    }
+    .testimonios {
+        padding: 20px 10px 40px 10px;
+    }
+    .testimonios .carousel {
+        max-width: 800px;
+    }
+    .carousel-item {
+        height: 500px;
+    }
+    .carousel-item .container i {
+        font-size: 90px;
+        margin: 5px 5px 5px 5px;
+    }
+    .testimonio-imagen {
+        height: 100px;
+        width: 100px;
+    }
+    .testimonio-texto {
+        max-width: 90%;
+        font-size: 15px;
+    }
+    .contacto .container {
+        padding: 15px;
+    }
+    .contacto .descripcion {
+        color: white;
+        font-size: 1rem;
+    }
+    .contacto button {
+        padding: 1em 1em;
+        margin: 10px;
+    }
+    .contacto button i {
+        font-size: 1.2rem;
+    }
+    .botonWhatsapp {
+        position: fixed;
+        right: 2%;
+        top: 45%;
+        width: 8%;
+    }
+    .botonWhatsapp:hover {
+        width: 20.5%;
+    }
+    footer {
+        min-height: 300px;
+    }
+    .footer-logo {
+        height: 70px;
+        width: 70px;
+        margin: 10px;
+    }
+    .footer-texto {
+        font-size: 1rem;
+        padding: 20px;
+        margin-bottom: 30px;
+        font-family: 'Quicksand', sans-serif;
+    }
+    .iconos-redes-sociales a {
+        width: 30px;
+        height: 30px;
+        padding: 1px;
+        margin: 5px;
+    }
+    .iconos-redes-sociales i {
+        font-size: 1rem;
+    }
+    .derechos-de-autor {
+        font-size: 11px;
+        color: white;
+        padding: 20px;
+    }
+}
